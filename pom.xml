@@ -15,6 +15,7 @@
     </properties>
 
     <dependencies>
+        <!--AWS 종속성 임포트-->
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-lambda-java-core</artifactId>
@@ -25,12 +26,14 @@
             <artifactId>aws-lambda-java-events</artifactId>
             <version>3.6.0</version>
         </dependency>
+        <!--음-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
+        <!-- 알고랜드 블록체인과 상호작용하기 때문에 Algorand Java SDK 임포트-->
         <dependency>
             <groupId>com.algorand</groupId>
             <artifactId>algosdk</artifactId>
@@ -39,6 +42,7 @@
 
     </dependencies>
 
+    <!-- 소프트웨어를 적절하게 패키지화하려면 Maven용 Shade  플러그인을 설정-->
     <build>
         <plugins>
             <plugin>

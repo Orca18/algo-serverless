@@ -4,13 +4,15 @@ public class RequestModel {
 
     String address;
     Long amount;
+    String senderadd;
 
     public RequestModel() {
     }
 
-    public RequestModel(String address, Long amount) {
+    public RequestModel(String address, Long amount, String senderadd) {
         this.address = address;
         this.amount = amount;
+        this.senderadd = senderadd;
     }
 
     public String getAddress() {
@@ -27,5 +29,13 @@ public class RequestModel {
 
     public void setAmount(Long amount) {
         this.amount = amount;
+    }
+
+    public String getSenderadd() {
+        return senderadd;
+    }
+
+    public void setSenderadd(String senderadd) {
+        this.senderadd = senderadd;
     }
 }
