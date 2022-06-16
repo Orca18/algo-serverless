@@ -1,0 +1,5 @@
+algoserverless/model/ResponseModel.class
+algoserverless/SendAlgoHandler.class
+algoserverless/model/RequestModel.class
+algoserverless/service/AlgoService.class
+algoserverless/GetAmountHandler.class
